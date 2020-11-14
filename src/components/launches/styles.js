@@ -5,7 +5,7 @@ export const MissionsContainer = styled.div`
   ${tw`container mx-auto pt-2 pt-24`}
   & {
     ul {
-      ${tw`grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3 `};
+      ${tw`grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3`};
       list-style-type: "none";
     }
     #loading {
