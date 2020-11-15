@@ -8,6 +8,7 @@ export const LAUNCHES_QUERY = gql`
       launch_date_local
       launch_year
       launch_success
+      details
       links {
         mission_patch_small
       }
